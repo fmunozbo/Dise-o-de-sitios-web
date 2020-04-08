@@ -1,0 +1,221 @@
+body {
+    background: #005883;
+}
+
+#cabecera {
+    width: 100%;
+    height: 160px;
+    margin-top: -30px;
+    position: relative;
+}
+
+.html {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 90px;
+    height: 130px;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.css3 {
+    margin-left: 8px;
+    margin-top: 8px;
+    width: 140px;
+    height: 140px;
+    float: right;
+    padding-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font: 60px Franklin Gothic Book;
+    border: solid 3PX white;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.navegacion {
+    width: 100%;
+    margin: 0px;
+    padding: 0 0;
+    clear: none;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 20px 20px;
+    background-color: white;
+    color: #005883;
+    border: solid 4px #005883;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana;
+}
+
+.menu li a:hover {
+    background-color: #005883;
+    color: white;
+    border: solid 4PX white;
+    transition: all 0.3s;
+}
+
+.submenu {
+    position: absolute;
+    visibility: hidden;
+    width: 180px;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px 15px;
+    background-color: white;
+    color: #005883;
+    border: solid 2px #005883;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.box {
+    float: right;
+    display: block;
+    color: #005883;
+    border: solid 4px #005883;
+    padding: 25px 25px;
+    text-decoration: none;
+}
+
+section {
+    float: left;
+    width: 74%;
+    height: 750px;
+    border: solid 3PX white;
+    color: white;
+    font-family: Segoe U;
+    padding: 5px 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #FB9A0E;
+    font-size: 20px;
+}
+
+#columna2 {
+    width: 80%;
+    top: 80px;
+    bottom: 82px;
+    margin: 55px 55px;
+    position: relative;
+    padding-bottom: 51%;
+    padding-top: 75px;
+    padding-left: 55px;
+    text-align: justify;
+}
+
+#columna2 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+aside {
+    display: inline-table;
+    float: right;
+    width: 22%;
+    height: 510px;
+    background: white;
+    color: #005883;
+    font: 20px Franklin Gothic Book;
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+    border: solid 4px #005883;
+}
+
+h3 a {
+    text-decoration: none;
+    color: #005883;
+}
+
+h3 a:hover {
+    background-color: #005883;
+    color: white;
+    border: solid 4PX white;
+}
+
+dl {
+    list-style-type: none;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+dt a {
+    display: block;
+    color: #005883;
+    border: solid 4px #005883;
+    text-align: center;
+    padding: 22px 22px;
+    text-decoration: none;
+}
+
+dt a:visited {
+    color: #005883;
+}
+
+dt a:hover {
+    background-color: #005883;
+    color: white;
+    border: solid 4PX white;
+}
+
+footer {
+    position: relative;
+    padding-top: 15px;
+    width: 90%;
+    height: 40px;
+    bottom: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.face {
+    padding-right: 25px;
+}
+
+.you {
+    padding-left: 20px;
+}
+
+#sfc15y79hnj3z3mfdxjxaadztkmnw72zs5j {
+    clear: none;
+    position: relative;
+    display: inline-block;
+    background: white;
+    padding: 5px 5px;
+    padding-bottom: 0;
+    border: solid 3px white;
+}
