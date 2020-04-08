@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilo1.css" />
+    <title>Contrucción OVI</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="cabecera">
+            <img class="html" src="img/html.png" alt="logo de HTML" />
+            <img class="css3" src="img/css3-logo.png" alt="logo de hojas de estilo en cascada css" />
+            <h1>DISEÑO DE SITIOS WEB <br> CSS3</h1>
+        </div>
+    </header>
+    <nav class="navegacion">
+        <ul class="menu">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="#">LECTURAS</a>
+                <ul class="submenu">
+                    <li><a href="estilo1.html">ESTILO INTERNO</a></li>
+                    <li><a href="estilo2.html">ESTILO EXTERNO</a></li>
+                    <li><a href="selectores.html">SELECTORES</a></li>
+                </ul>
+            </li>
+            <li><a href="#">MULTIMEDIA</a>
+                <ul class="submenu">
+                    <li><a href="estilo1m.html">CSS INTERNO</a></li>
+                    <li><a href="estilo2m.html">CSS EXTERNO</a></li>
+                    <li> <a href="selectorm.html">SELECTOR CSS</a></li>
+                </ul>
+            </li>
+            <li><a href="#">ACTIVIDADES</a>
+                <ul class="submenu">
+                    <li><a href="JUEGO1.html">QUIZ CSS3</a></li>
+                    <li><a href="JUEGO2.html">CRUCIGRAMA</a></li>
+                    <li><a href="JUEGO3.html">ADIVINANZA</a></li>
+                </ul>
+            </li>
+            <li><a href="autores.html">AUTORES</a></li>
+            <div class="box">
+                <div class="container-1">
+                    <form method=GET action="http://www.google.com/search">
+                        <span class="icon"><i class="fa fa-search"></i></span>
+                        <input type="search" id="search" placeholder="Search..." />
+                    </form>
+                </div>
+            </div>
+        </ul>
+    </nav>
+    <section>
+        <div id="columna1">
+            <h2>CSS INTERNO</h2>
+            <P>Vamos a generar un archivo de estilos independiente. Para ello abre el editor de texto que estés usando y crea un archivo con el siguiente contenido: <br><br>
+                <img class="base" src="img/codigo css.jpg" alt="Codigo Base CSS"><br><br> Seguimos usando las mismas propiedades CSS y los mismos valores que hemos usado en la forma CSS en línea y en la forma CSS interna. Los contenidos que se encuentren
+                entre los símbolos /* …. */ serán considerados comentarios y se pueden usar para introducir información del autor del archivo, versión, etc. así como para escribir aquellas aclaraciones sobre los estilos que se consideren necesarias. Un
+                comentario puede comprender una o varias líneas según se desee. Elige Guardar Como… y guarda el archivo con un nombre y extensión css, por ejemplo estilos.css. Asegúrate que la extensión del archivo sea css. No es válido si no tiene esta
+                extensión.
+                <br><br> En nuestro archivo HTML eliminaremos la definición de estilos interna y dejaremos sólo la invocación al archivo escrita con la siguiente sintaxis:
+                <br><br>
+                <img class="base2" src="img/url.jpg" alt="Invocacion CSS"><br><br> link es una etiqueta que se usa en HTML para establecer vínculos entre un documento HTML y otros recursos como una imagen de icono o una hoja de estilos CSS. En este caso
+                se indica con la propiedad rel (relación o relationship) que el documento HTML debe usar los estilos definidos como texto/css en un archivo con el nombre indicado. Ten en cuenta que si como ruta de archivo indicas simplemente el nombre
+                del archivo, éste debe encontrarse en la misma carpeta en que se encuentre el documento HTML. Si el archivo CSS se encuentra en otra carpeta deberás indicarlo escribiendo una URL completa u bien una URL relativa que determine la ruta.
+                Nosotros ubicaremos de momento el archivo CSS en la misma carpeta que el archivo HTML. En el archivo HTML tendremos lo siguiente:
+                <br><br>
+                <img class="int" src="img/estructura1.jpg" alt="Estructura CSS"><br><br>Ahora procedemos a visualizar el archivo HTML en nuestro navegador. Si se está cargando la hoja de estilos correctamente deberemos obtener el mismo resultado que habíamos
+                obtenido con la aplicación de estilos interna. Prueba a hacer distintos cambios en el archivo css y visualiza los resultados.<br><br>
+            </P>
+        </div>
+    </section>
+    <aside>
+        <h3>TWITTER UNAD</h3>
+        <a class="twitter-timeline" data-height="510" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </aside>
+    <footer>
+        <a class="face" href="https://www.facebook.com/UniversidadUNAD" target="_blank"><img alt="facebook UNAD" height="50" src="img/Facebook.jpg" title="Facebokk de la UNAD" width="50" /></a>
+        <div id="sfc15y79hnj3z3mfdxjxaadztkmnw72zs5j">
+            <script type="text/javascript" src="https://counter10.stat.ovh/private/counter.js?c=15y79hnj3z3mfdxjxaadztkmnw72zs5j&down=async" async></script>
+            <noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas gratis"><img src="https://counter10.stat.ovh/private/contadorvisitasgratis.php?c=15y79hnj3z3mfdxjxaadztkmnw72zs5j" height="50" border="0" width="90" title="contador de visitas gratis" alt="contador de visitas gratis"></a></noscript>
+        </div>
+        <a class="you" href="https://www.youtube.com/user/universidadunad/featured" target="_blank"><img alt="youtube UNAD" height="50" src="img/YOUTUBE.png" title="Youtube de la UNAD" width="70" /></a>
+    </footer>
+</body>
+
+</html>
